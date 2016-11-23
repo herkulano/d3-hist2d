@@ -1,12 +1,12 @@
 # 2D Histogram
 
-[![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-plugin-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-plugin-hist2d)
+[![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-hist2d)
 
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
 
 It can be used as a module of a larger application, because it doesn't block the UI, it computes the values between each animation frame.
 
-Inspired by the work of [Mike Bostock](https://github.com/d3/d3-plugins/tree/master/hexbin).
+Inspired by the work of [Mike Bostock](https://github.com/d3/d3-hexbin).
 
 #### Example
 
@@ -76,7 +76,7 @@ The binning function is non-blocking, so the values are computed between each an
 
 #### License & Acknowledgements
 
-[LICENSE](https://raw.githubusercontent.com/herkulano/d3-plugin-hist2d/master/LICENSE)
+[LICENSE](https://raw.githubusercontent.com/herkulano/d3-hist2d/master/LICENSE)
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-67903380-1/d3-plugin-hist2d/)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-67903380-1/d3-hist2d/)](https://github.com/igrigorik/ga-beacon)
