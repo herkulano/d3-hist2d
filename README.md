@@ -1,6 +1,6 @@
 # 2D Histogram
 
-[![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-hist2d)
+[![Build Status](https://travis-ci.org/herkulano/d3-hist2d.svg?branch=master)](https://travis-ci.org/herkulano/d3-hist2d) [![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-hist2d) 
 
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
 
