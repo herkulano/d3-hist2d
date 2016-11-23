@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+build/
+node_modules
+bower_components
+npm-debug.log
