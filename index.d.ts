@@ -2,7 +2,7 @@ declare namespace d3 {
     export function hist2d<T>(): Hist2D<T>;
 
     interface Hist2D<T> {
-      (data: Array<number[]>, callback: () => Array<number[]>): Hist2D<T>
+      (data: Array<number[]>, callback: () => Array<number[]>): Hist2D<T>;
 
       // hist2d.bins(number) => b
       bins(): number;
