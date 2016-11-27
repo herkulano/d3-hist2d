@@ -10,15 +10,19 @@ declare module 'd3' {
 
     // hist2d.indices([x, y]) => [x, y]
     indices(): number[];
-    indices(indices?: number[]): Hist2D<T>;
+    indices(indices: number[]): Hist2D<T>;
 
     // hist2d.interval(number) => t
     interval(): number;
-    interval(value?: number): Hist2D<T>;
+    interval(value: number): Hist2D<T>;
 
     // hist2d.domain([[x1,x2],[y1,y2]]) => d
     domain(): Array<Array<number>>;
-    domain(domain?: Array<Array<number>>): Hist2D<T>;
+    domain(domain: Array<Array<number>>): Hist2D<T>;
+
+    // hist2d.size([width, height]) => s
+    size(): number[];
+    size(values: number[]): Hist2D<T>;
   }
 }
 

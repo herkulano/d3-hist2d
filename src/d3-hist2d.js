@@ -1,6 +1,7 @@
 export default function () {
   var b = 0; // bins
   var d; // domain
+  var s; // size [width, height]
   var xi = 0; // array index for x
   var yi = 1; // array index for y
   var x; // row scale
@@ -92,6 +93,15 @@ export default function () {
       return d;
     }
     d = _;
+    return hist2d;
+  };
+
+  // hist2d.size([width, height]) => s
+  hist2d.size = function (_) {
+    if (!arguments.length) {
+      return s;
+    }
+    s = [_[0] / b, _[1] / b];
     return hist2d;
   };
 
