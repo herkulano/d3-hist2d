@@ -1,6 +1,6 @@
 {
   "name": "d3-hist2d",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hist2D is a two dimensional histogram D3 v4 module",
   "keywords": [
     "d3",
