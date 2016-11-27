@@ -2,7 +2,7 @@ declare module 'd3' {
   export function hist2d<T>(): Hist2D<T>;
 
   interface Hist2D<T> {
-    (data: Array<number[]>, callback: (hist: Array<number[]>) => void): Hist2D<T>;
+    (data: Array<Array<number>>, callback: (hist: Array<Array<number>>) => void): Hist2D<T>;
 
     // hist2d.bins(number) => b
     bins(): number;
@@ -17,8 +17,8 @@ declare module 'd3' {
     interval(value?: number): Hist2D<T>;
 
     // hist2d.domain([[x1,x2],[y1,y2]]) => d
-    domain(): Array<number[]>;
-    domain(domain?: Array<number[]>): Hist2D<T>;
+    domain(): Array<Array<number>>;
+    domain(domain?: Array<Array<number>>): Hist2D<T>;
   }
 }
 
