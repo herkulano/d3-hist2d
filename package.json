@@ -16,6 +16,10 @@
   "main": "build/d3-hist2d.js",
   "jsnext:main": "index",
   "homepage": "https://github.com/herkulano/d3-hist2d",
+  "author": {
+    "name": "Herculano Campos",
+    "url": "https://herkulano.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/herkulano/d3-hist2d.git"
