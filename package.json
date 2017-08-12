@@ -26,14 +26,14 @@
   },
   "scripts": {
     "pretest": "rm -rf build && mkdir build && rollup -f umd -n d3 -o build/d3-hist2d.js -- index.js",
-    "test": "tape 'test/**/*-test.js'",
+    "test": "tape 'test/**/*-test.js' && eslint index.js src",
     "prepublish": "npm run test && uglifyjs build/d3-hist2d.js -c -m -o build/d3-hist2d.min.js",
     "postpublish": "zip -j build/d3-hist2d.zip -- LICENSE README.md build/d3-hist2d.js build/d3-hist2d.min.js"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
-    "rollup": "~0.45.2",
+    "rollup": "^0.47.2",
     "tape": "4",
-    "uglify-js": "3.0.24"
+    "uglify-js": "^3.0.27"
   }
 }
