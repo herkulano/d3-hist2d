@@ -1,6 +1,6 @@
 # 2D Histogram
 
-[![CircleCI](https://circleci.com/gh/herkulano/d3-hist2d.svg?style=shield)](https://circleci.com/gh/herkulano/d3-hist2d) [![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-hist2d) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d555282abc24dfcb1c0cc4e0300300f)](https://www.codacy.com/app/herkulano/d3-hist2d?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=herkulano/d3-hist2d&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/herkulano/d3-hist2d.svg?style=shield)](https://circleci.com/gh/herkulano/d3-hist2d) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d555282abc24dfcb1c0cc4e0300300f)](https://www.codacy.com/app/herkulano/d3-hist2d?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=herkulano/d3-hist2d&amp;utm_campaign=Badge_Grade)
 
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
 
