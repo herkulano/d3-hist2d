@@ -1,7 +1,7 @@
 {
   "name": "d3-hist2d",
-  "version": "1.0.6",
-  "description": "Hist2D is a two dimensional histogram D3 v4 module",
+  "version": "1.0.7",
+  "description": "Hist2D is a two dimensional histogram D3 v4+ module",
   "keywords": [
     "d3",
     "d3-module",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "eslint": "^4.1.0",
     "rollup": "0.66.0",
-    "tape": "4",
+    "tape": "^4.9.1",
     "uglify-js": "^3.0.27"
   }
 }
