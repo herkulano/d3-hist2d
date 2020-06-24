@@ -31,7 +31,7 @@
     "postpublish": "zip -j build/d3-hist2d.zip -- LICENSE README.md build/d3-hist2d.js build/d3-hist2d.min.js"
   },
   "devDependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.3.1",
     "rollup": "2.18.0",
     "tape": "4.13.3",
     "uglify-js": "3.10.0"
