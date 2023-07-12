@@ -33,7 +33,7 @@
   "devDependencies": {
     "eslint": "8.44.0",
     "rollup": "2.79.1",
-    "tape": "5.6.4",
+    "tape": "5.6.5",
     "uglify-js": "3.17.4"
   }
 }
